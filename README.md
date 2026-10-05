@@ -1,56 +1,77 @@
-# Study Task Manager
+# Study Manager
 
-A simple, responsive, and modern task manager designed specifically for students to organize their study sessions. It runs entirely in the browser using local storage.
+A simple and responsive study task manager built with React and Vite.
 
 ## Features
-- Add study tasks with a title and optional description
-- Display tasks in a clean list UI
-- Mark tasks as completed or pending
+
+- Add study tasks
+- Add optional task descriptions
+- Mark tasks as completed
 - Delete tasks
 - Filter tasks by All, Pending, and Completed
-- Persists data using browser localStorage
-- Empty and loading states for a better User Experience
-- Fully responsive across mobile, tablet, and desktop
+- Tasks are saved using localStorage
+- Responsive design for mobile and desktop
 
 ## Tech Stack
+
 - React
-- Vite
 - JavaScript
-- standard CSS
+- Vite
+- CSS
+- Browser localStorage
 
 ## Getting Started
 
 ### Prerequisites
-- Node.js (v14 or higher recommended)
+
+Make sure you have Node.js installed.
 
 ### Installation
-1. Clone or download the repository.
-2. Open a terminal in the project directory.
-3. Install the dependencies:
-   ```bash
-   npm install
-   ```
 
-### Running Locally
-To start the development server:
-```bash
-npm run dev
-```
-Then, open your browser and navigate to `http://localhost:5173`.
+Clone the repository:
 
-### Building for Production
-To build the app for production (static frontend):
-```bash
-npm run build
-```
-The output will be generated in the `dist` folder.
+    git clone https://github.com/saniyabaig121/study-manager.git
+
+Open the project folder:
+
+    cd study-manager
+
+Install dependencies:
+
+    npm install
+
+Start the development server:
+
+    npm run dev
+
+Then open the local URL shown in the terminal.
+
+## Build for Production
+
+    npm run build
+
+## Project Structure
+
+    study-manager/
+    +-- public/
+    +-- src/
+    +-- index.html
+    +-- package.json
+    +-- vite.config.js
+    +-- LICENSE
+    +-- CONTRIBUTING.md
+    +-- README.md
 
 ## Contributing
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
+
+Contributions are welcome!
+
+Please read CONTRIBUTING.md before submitting a Pull Request.
 
 ## License
-MIT
+
+This project is licensed under the MIT License.
+
+## Author
+
+Saniya Baig
